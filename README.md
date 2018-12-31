@@ -1,11 +1,11 @@
-#Trapping
+# Trapping
 Online...
 
-##Game process
+## Game process
 Desc with pics...
 
-##Main idea
+## Main idea
 Authoritative server..
 
-##Current status
+## Current status
 Minimal value product - alpha..

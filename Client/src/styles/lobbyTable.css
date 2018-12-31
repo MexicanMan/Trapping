@@ -1,0 +1,61 @@
+/* Fixed Table */
+
+table {
+    table-layout: fixed;
+    word-wrap: break-word;
+}
+
+thead, tbody, tr, td, th { display: block; position: relative; }
+
+tr:after {
+    content: ' ';
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+tbody {
+    height: 300px;
+    overflow-y: auto;
+}
+
+tbody td, thead th {
+    float: left;
+}
+
+/* Scroller */
+
+tbody::-webkit-scrollbar {
+    width: 10px;
+	background-color: #F5F5F5;
+}
+
+tbody::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+ 
+tbody::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #bfbfbf;
+}
+
+/* Hover button */
+
+.connect-btn {
+    opacity: 0;
+    left: 28%;
+    z-index: 1;
+    position: absolute;
+    -webkit-transition: opacity 0.5s linear, left 0.4s linear;
+    -moz-transition: opacity 0.5s linear, left 0.4s linear;
+    -o-transition: opacity 0.5s linear, left 0.4s linear;
+    transition: opacity 0.5s linear, left 0.4s linear;
+}
+
+tr:hover .connect-btn {
+    opacity: 1;
+    left: 0;
+}

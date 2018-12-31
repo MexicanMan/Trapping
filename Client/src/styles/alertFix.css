@@ -1,0 +1,14 @@
+div.fades {
+    opacity: 0;
+    -webkit-transition: opacity 0.15s linear;
+    -moz-transition: opacity 0.15s linear;
+    -o-transition: opacity 0.15s linear;
+    transition: opacity 0.15s linear, max-height 0s 0.15s;
+  }
+div.fades.in {
+    opacity: 1;
+}
+
+.alert span {
+    display: table-cell;
+}

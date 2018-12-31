@@ -18,5 +18,7 @@ export function fromTypeToText(type) {
             return "You are connected to another lobby!";
         case errorTypes.FULL_LOBBY_ERROR:
             return "Lobby is full!";
+        default:
+            return "Unknown error!";
     }
 }

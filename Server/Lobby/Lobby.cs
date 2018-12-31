@@ -34,7 +34,7 @@ namespace Server
         Timer t;
 
         private static TimeSpan StartTime = TimeSpan.FromSeconds(4);
-        private static TimeSpan PrepareTime = TimeSpan.FromSeconds(31);
+        private static TimeSpan PrepareTime = TimeSpan.FromSeconds(30);
         Timer StartCount;
 
         public int PlayersNumber

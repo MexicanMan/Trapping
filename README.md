@@ -14,4 +14,4 @@ The main idea was to make an authoritative server, so that no one could somehow 
 ## Current status
 Minimum viable product - game is playable, but it is more like demo version.
 
-Project is unfinished, work in progress.
+Project is abandoned =(
